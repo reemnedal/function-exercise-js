@@ -1,0 +1,52 @@
+<script>
+
+let result="";
+let i="" ; 
+let x=""; 
+function addDash(x){
+
+for(i=0;i<x.length;i++)
+
+{
+  result += x[i];
+     
+if(x[i]%2==0 && i < x.length - 1 &&  x[i+1]%2==0)
+
+{
+
+  result += '-';
+
+}
+
+
+
+}
+
+document.write(result);
+}
+
+
+
+ 
+
+
+</script>
+
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <button onclick="addDash(prompt())">
+    click here please 
+    </button>
+</body>
+</html>

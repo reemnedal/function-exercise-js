@@ -1,0 +1,51 @@
+<script>
+
+
+// document.write("welcome");
+
+// // //we use tostring method because reverse method applied on string or arrays!
+
+// let num1=123456789;
+// let xtosring=num1.toString();
+
+// let xto_array=xtosring.split('');
+// let reversex=xto_array.reverse();
+// let join_X=reversex.join('');
+
+// document.write(join_X);
+
+
+
+//  **********or*************
+
+// let num1=123456789;
+// // let result = num1.toString().split('').reverse().join('');
+// // document.write(result);
+
+ 
+ 
+function reverseNumbers(num1){
+  let xtosring=num1.toString();
+
+let xto_array=xtosring.split('');
+let reversex=xto_array.reverse();
+let join_X=reversex.join('');
+
+document.write(join_X);
+
+
+}
+
+</script><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<button onclick="reverseNumbers(prompt())">Here you can Enter number and we will  revers it </button>
+
+
+</body>
+</html>
